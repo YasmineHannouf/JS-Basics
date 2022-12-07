@@ -1,10 +1,8 @@
-const num1 = parseInt(prompt('Enter your shoe size '));
-const num2 = parseInt(prompt('Enter your birth year '));
-function myFunction(num, num2) {
-    let x = (((((num2)+5)*50 )-num2)+1766);
 
-    return x;
-  }
+function calc(num1, num2) {
+  var num1= parseInt(document.getElementById("shoe_size").value);
+  var num2= parseInt(document.getElementById("year").value);
+  var firstTotal = (num1 * 2 + 5) * 50 - num2;
 
-  let y =myFunction(num1,num2);
-  alert(y);
+  alert(Total + 1766);
+}
