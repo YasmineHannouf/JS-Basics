@@ -1,4 +1,5 @@
-let num1= prompt("type your fisrt number");
-let num2=prompt("type your second number");
-let solution=(num1%num2);
-alert(solution);
+function divide(num1, num2) {
+    var num1 = parseInt(document.getElementById("first_number").value);
+    var num2 = parseInt(document.getElementById("second_number").value);
+    return alert(num1%num2);
+  }
