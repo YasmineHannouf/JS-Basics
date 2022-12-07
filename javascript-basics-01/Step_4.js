@@ -1,5 +1,9 @@
-let name = prompt("Please enter your name");
-let surname = prompt("Please enter your surname");
-let city = prompt("Please enter your city");
-
-alert(name +"\n" + surname+"\n" + city);
+function alertTest() {
+    userName = document.getElementById("name").value;
+    surname = document.getElementById("surname").value;
+    city = document.getElementById("city").value;
+  
+    alert(
+      "Name: " + userName + "\n" + "Surname: " + surname + "\n" + "City: " + city
+    );
+  }
