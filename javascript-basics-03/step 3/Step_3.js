@@ -4,13 +4,13 @@ let blue = document.querySelector(".blue");
 let t = document.getElementById("text");
 
 green.onclick = function () {
-  d.style.color = "green";
+  t.style.color = "green";
 };
 
 red.onclick = function () {
-  d.style.color = "red";
+  t.style.color = "red";
 };
 
 blue.onclick = function () {
-  d.style.color = "blue";
+  t.style.color = "blue";
 };
