@@ -113,4 +113,4 @@ const stringSize = (text) => {
   const invertArr = (social_arr) => {
     social_arr.reverse();
     return social_arr;
-  }
+  };
