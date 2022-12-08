@@ -1,11 +1,11 @@
-var x = document.getElementById("show");
-var y = document.getElementById("hide");
-var z = document.getElementById("texte")
+var num1 = document.getElementById("show");
+var num2 = document.getElementById("hide");
+var num3 = document.getElementById("texte")
 
-x.onclick = function(){
-    z.style.display = "block";
+num1.onclick = function(){
+    num3.style.display = "block";
 }
 
-y.onclick = function(){
-    z.style.display = "none";
+num2.onclick = function(){
+    num3.style.display = "none";
 }
